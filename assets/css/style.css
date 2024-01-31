@@ -448,9 +448,7 @@ section .title::after{
 .skills-content .right .net::before{
     width: 80%;
 }
-.skills-content .right .net::before{
-    width: 90%;
-}
+
 
 /* teams section styling */
 .teams .title::after{
