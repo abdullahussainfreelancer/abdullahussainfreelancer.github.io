@@ -430,6 +430,9 @@ section .title::after{
 .skills-content .right .jquery::before{
     width: 80%;
 }
+.skills-content .right .javascript::before{
+    width: 80%;
+}
 .skills-content .right .figma::before{
     width: 80%;
 }
@@ -444,6 +447,9 @@ section .title::after{
 }
 .skills-content .right .php::before{
     width: 90%;
+}
+.skills-content .right .python::before{
+    width: 80%;
 }
 .skills-content .right .net::before{
     width: 80%;
