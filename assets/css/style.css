@@ -428,7 +428,25 @@ section .title::after{
     width: 98%;
 }
 .skills-content .right .jquery::before{
-    width: 50%;
+    width: 80%;
+}
+.skills-content .right .figma::before{
+    width: 80%;
+}
+.skills-content .right .photoshop::before{
+    width: 90%;
+}
+.skills-content .right .reactjs::before{
+    width: 90%;
+}
+.skills-content .right .angular::before{
+    width: 85%;
+}
+.skills-content .right .php::before{
+    width: 90%;
+}
+.skills-content .right .net::before{
+    width: 80%;
 }
 
 
