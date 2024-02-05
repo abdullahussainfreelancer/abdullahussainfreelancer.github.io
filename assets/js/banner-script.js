@@ -2,12 +2,12 @@ var w = window.innerWidth,
     h = window.innerHeight,
     canvas = document.getElementById('test'),
     ctx = canvas.getContext('2d'),
-    rate = 60,
-    arc = 100,
+    rate = 40,
+    arc = 150,
     time,
     count,
-    size = 7,
-    speed = 20,
+    size = 3,
+    speed = 10,
     parts = new Array,
     colors = ['red','#f57900','yellow','#ce5c00','#5c3566'];
 var mouse = { x: 0, y: 0 };
@@ -23,8 +23,8 @@ function create() {
     parts[i] = {
       x: Math.ceil(Math.random() * w),
       y: Math.ceil(Math.random() * h),
-      toX: Math.random() * 5 - 1,
-      toY: Math.random() * 2 - 1,
+      toX: Math.random() * 3 - 1,
+      toY: Math.random() * 1 - 1,
       c: colors[Math.floor(Math.random()*colors.length)],
       size: Math.random() * size
     }
@@ -68,7 +68,7 @@ function particles() {
   if(time < speed) {
     time++;
   }
-  setTimeout(particles,5000/rate);
+  setTimeout(particles,3000/rate);
 }
 function MouseMove(e) {
    mouse.x = e.layerX;
