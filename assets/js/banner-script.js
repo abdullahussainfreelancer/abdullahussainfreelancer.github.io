@@ -68,7 +68,7 @@ function particles() {
   if(time < speed) {
     time++;
   }
-  setTimeout(particles,1000/rate);
+  setTimeout(particles,5000/rate);
 }
 function MouseMove(e) {
    mouse.x = e.layerX;
