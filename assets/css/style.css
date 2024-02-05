@@ -779,6 +779,7 @@ footer span a:hover {
     position: relative;
     height: 80vh;
     margin: 0;
+    overflow: hidden;
 }
 
 #particles-js canvas {
